@@ -60,6 +60,10 @@ echo '<div class="vertical-menu"></div><a href="/cgi-bin/MSU/check_coordinate_fr
 
 echo '<div class="vertical-menu"></div><a href="/cgi-bin/MSU/unblock_rackloop_rack.sh" class="active"><b>Unblock rackloop Rack</b></a>'
 
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/MSU/clear_barcode_reservation.sh" class="active"><b>Clean barcode Reservation</b></a>'
+
+
+
 echo '</body>'
 echo '</html>'
 

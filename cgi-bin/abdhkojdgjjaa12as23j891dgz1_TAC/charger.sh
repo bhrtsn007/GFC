@@ -56,6 +56,10 @@ echo '<div class="vertical-menu"></div><a href="/cgi-bin/charger/check_commit_id
 
 echo '<div class="vertical-menu"></div><a href="/cgi-bin/charger/create_chargetask.sh" class="active"><b>Create Charge Task for any Butler</b></a>'
 
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/charger/get_charging_rate.sh" class="active"><b>Get Charging rate</b></a>'
+
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/charger/stop_charging.sh" class="active"><b>Stop Charging</b></a>'
+
 echo '</body>'
 echo '</html>'
 

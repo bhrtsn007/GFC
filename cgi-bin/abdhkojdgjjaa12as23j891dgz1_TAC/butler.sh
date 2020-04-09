@@ -67,6 +67,12 @@ echo '<div class="vertical-menu"></div><a href="/cgi-bin/butler/init_all_butler.
 
 echo '<div class="vertical-menu"></div><a href="/cgi-bin/butler/clear_reservation.sh" class="active"><b>Clear butler reservation</b></a>'
 
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/butler/rackloop_start.sh" class="active"><b>Start Rackloop for any butler</b></a>'
+
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/butler/rackloop_stop.sh" class="active"><b>Stop Rackloop of any Butler</b></a>'
+
+echo '<div class="vertical-menu"></div><a href="/cgi-bin/butler/get_camera_calibration_value.sh" class="active"><b>Get Camera Calibration value of any butler</b></a>'
+
 echo '</body>'
 echo '</html>'
 
